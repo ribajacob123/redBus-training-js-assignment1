@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,550,600,700' rel='stylesheet'>
+    <script src="main.js"></script>
+    <title>Review</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbarLeft">
+            <img id="logoTop" src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png">
+            <span id="busTicket">BUS TICKETS<span id="underline"></span></span>
+            <span id="rPool">rPool</span> <span id="textNew">New</span>
+            <span id="busHire">BUS HIRE</span>
+        </div>
+        <div class="navbarRight">
+            <span id="help">Help </span>
+            <span id="manageBooking">Manage Booking</span>
+            <img class="arrow" src="images/arrow.png" alt="">
+            <img id="login" src="images/login.png" alt="">
+            <img class="arrow" src="images/arrow.png" alt="">
+        </div>
+    </div>
+    <div class="header">
+        <div class="mainHeading">Rate and Review Your Trip</div>
+        <div class="boName">with Imaginary Travels</div>
+        <hr class="horizontalLine">
+    </div>
+
+
+
+    <div class="mainContent">
+        <div class="content">
+            <div class="rating">
+                <div id="ratingText" class="ratingText">How would you rate the experience and safety on this trip?</div>
+                <div id="starRating" class="starRating">
+                    <input type="image" id="1" class="star" src="images/starNotSelected.png" onclick="rating(this)">
+                    <input type="image" id="2" class="star" src="images/starNotSelected.png" onclick="rating(this)">
+                    <input type="image" id="3" class="star" src="images/starNotSelected.png" onclick="rating(this)">
+                    <input type="image" id="4" class="star" src="images/starNotSelected.png" onclick="rating(this)">
+                    <input type="image" id="5" class="star" src="images/starNotSelected.png" onclick="rating(this)">
+                </div>
+                <div id="starRatingIndicator" class="starRatingIndicator">
+                    <span id="startRate">1 - Terrible</span>
+                    <span id="endRate">5 - Excellent</span>
+                </div>
+            </div>
+
+
+            <div class="tripSummary">
+                <h1 id="tripSummaryHeading">TRIP SUMMARY</h1>
+                <div class="tripSummaryFaded">TICKET ID : <span id="ticketID">TPAM50075023</span></div>
+                <div class="busStop">
+                    <div class="boarding">
+                        <p class="tripSummaryBold">Guna</p>
+                        <p class="tripSummaryFaded">Busstand</p>
+                    </div>
+                    <div class="destination">
+                        <p class="tripSummaryBold">Dwarka</p>
+                        <p class="tripSummaryFaded">Dwarka</p>
+                    </div>
+                </div>
+
+
+                <div class="dateTime">
+                    <p class="tripSummaryMedium">Tuesday,22-09-20</p>
+                    <p class="tripSummaryMedium">4:30 PM</p>
+                </div>
+                <div class="boInfo">
+                    <p class="tripSummaryMedium">Imaginary Travels</p>
+                    <p class="tripSummaryFaded">Seat(s)14</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="extra">
+            <form name="formContent" id="formContent" action="#" class="formContent" onsubmit="return validateForm(formContent)">
+
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="rightFooterContent">
+            <img src="https://s3.rdbuz.com/web/images/home/sgp/r_logo.png">
+            <div class="description">redBus is the world's largest online bus ticket booking service trusted by over 25
+                million happy customers globally. redBus offers bus ticket booking through its website,iOS and Android
+                mobile apps for all major routes.</div>
+            <div class="socialMedia">
+                <a target="_blank" href="https://www.facebook.com/redbus.in/"><span
+                        class="fbicon icon-Facebook"></span></a>
+                <a target="_blank" href="https://twitter.com/redBus_in"><span
+                        class="twittericon icon-Twitter"></span></a>
+            </div>
+        </div>
+    </footer>
+    <div id="toast">Your feedback is submitted successfully!</div>
+
+</body>
+
+</html>
