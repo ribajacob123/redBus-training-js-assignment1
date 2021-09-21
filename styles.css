@@ -334,7 +334,7 @@ footer {
 }
 
 .twittericon {
-    margin-left: 0.8rem;
+    margin-left: 8px;
 }
 
 .fbicon,
@@ -357,3 +357,247 @@ footer {
     width: 4.7rem;
     height: 4.7rem;
 }
+
+
+
+
+/* media queries*/
+
+@media only screen and (max-width:1350px) {
+    html {
+        font-size: 9.5px;
+    }
+
+    ul.betterTags {
+        width: 110rem;
+    }
+
+    .tellMoreText {
+        width: 95rem;
+    }
+
+    .formContent {
+        padding: 0 14rem 0;
+    }
+
+    .better {
+        margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (max-width:1250px) {
+    html {
+        font-size: 9.3px;
+    }
+
+    ul.betterTags {
+        width: 109rem;
+    }
+
+    .formContent {
+        padding: 0 12rem 0;
+    }
+
+    #submitButton {
+        margin: 0 0 5.5rem 25rem;
+    }
+
+    .rating {
+        width: 53rem;
+    }
+
+    .tripSummary {
+        width: 40rem;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    html {
+        font-size: 9px;
+    }
+
+    ul.betterTags {
+        width: 100rem;
+    }
+
+    .tellMoreText {
+        width: 80rem;
+    }
+
+}
+
+@media only screen and (max-width:1000px) {
+    html {
+        font-size: 8.5px;
+    }
+
+    .formContent {
+        padding: 0 12rem 0;
+    }
+
+    .rating {
+        width: 51rem;
+    }
+}
+
+@media only screen and (max-width:950px) {
+    html {
+        font-size: 8px;
+    }
+
+    .tripSummary {
+        width: 39rem;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    html {
+        font-size: 7.5px;
+    }
+
+    .rating {
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    html {
+        font-size: 7px;
+    }
+
+    .formContent {
+        padding: 0 11rem 0;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    html {
+        font-size: 6px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    html {
+        font-size: 5px;
+    }
+
+    .rating {
+        width: 47rem;
+    }
+
+    .tripSummary {
+        width: 37rem;
+    }
+
+}
+
+
+
+@media only screen and (max-width:550px) {
+    html {
+        font-size: 5px;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .rating {
+        width: 56rem;
+    }
+
+    .tripSummary {
+        width: 56rem;
+    }
+
+    .formContent {
+        padding: 0 7rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #submitButton {
+        margin: 0 0 5.5rem 5rem;
+    }
+
+    ul.betterTags {
+        width: 79rem;
+        margin: 0rem 0 2.7rem 0rem;
+    }
+
+}
+
+@media only screen and (max-width:520px) {
+    html {
+        font-size: 4.3px;
+    }
+
+    .rating {
+        width: 57rem;
+    }
+
+    .tripSummary {
+        width: 57rem;
+    }
+
+    ul.betterTags {
+        width: 70rem;
+    }
+
+    .tellMoreText {
+        width: 65rem;
+    }
+
+    .formContent {
+        padding: 0 9rem 0;
+        align-items: center;
+    }
+
+    #submitButton {
+        margin: 0 0 5.5rem 2rem;
+    }
+
+}
+
+@media only screen and (max-width:500) {
+    html {
+        font-size: 4px;
+    }
+
+    .formContent {
+        padding: 0 7rem 0;
+    }
+
+    ul.betterTags {
+        width: 60rem;
+    }
+}
+
+@media only screen and (max-width:350) {
+    html {
+        font-size: 3.5px;
+    }
+
+    ul.betterTags {
+        width: 60rem;
+    }
+
+    .better {
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width:300) {
+    html {
+        font-size: 3px;
+    }
+
+    ul.betterTags{
+        flex-direction: column;
+    }
+}
+
