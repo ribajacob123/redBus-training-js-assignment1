@@ -383,6 +383,9 @@ footer {
     .better {
         margin-bottom: 5rem;
     }
+    #toast{
+        left: 51rem;
+    }
 }
 
 @media only screen and (max-width:1250px) {
@@ -409,6 +412,9 @@ footer {
     .tripSummary {
         width: 40rem;
     }
+    #toast{
+        left: 48rem;
+    }
 }
 
 @media only screen and (max-width:1050px) {
@@ -423,7 +429,9 @@ footer {
     .tellMoreText {
         width: 80rem;
     }
-
+    #toast{
+        left: 46rem;
+    }
 }
 
 @media only screen and (max-width:1000px) {
@@ -438,6 +446,9 @@ footer {
     .rating {
         width: 51rem;
     }
+    #toast{
+        left: 44rem;
+    }
 }
 
 @media only screen and (max-width:950px) {
@@ -447,6 +458,9 @@ footer {
 
     .tripSummary {
         width: 39rem;
+    }
+    #toast{
+        left: 42rem;
     }
 }
 
@@ -458,6 +472,9 @@ footer {
     .rating {
         width: 50rem;
     }
+    #toast{
+        left: 40rem;
+    }
 }
 
 @media only screen and (max-width:800px) {
@@ -468,14 +485,22 @@ footer {
     .formContent {
         padding: 0 11rem 0;
     }
+    #submitButton {
+        margin: 0 0 5.5rem 17rem;
+    }
 
+    #toast{
+        left: 37rem;
+    }
 }
 
 @media only screen and (max-width:700px) {
     html {
         font-size: 6px;
     }
-
+    #toast{
+        left: 35rem;
+    }
 }
 
 @media only screen and (max-width:600px) {
@@ -491,6 +516,9 @@ footer {
         width: 37rem;
     }
 
+    #toast{
+        left: 33rem;
+    }
 }
 
 
@@ -528,6 +556,9 @@ footer {
         width: 79rem;
         margin: 0rem 0 2.7rem 0rem;
     }
+    #toast{
+        left: 31rem;
+    }
 
 }
 
@@ -560,6 +591,9 @@ footer {
     #submitButton {
         margin: 0 0 5.5rem 2rem;
     }
+    #toast{
+        left: 29rem;
+    }
 
 }
 
@@ -574,6 +608,9 @@ footer {
 
     ul.betterTags {
         width: 60rem;
+    }
+    #toast{
+        left: 28rem;
     }
 }
 
